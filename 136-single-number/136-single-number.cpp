@@ -3,7 +3,7 @@ public:
     int singleNumber(vector<int>& nums) {
         int y=0;
         for(auto x:nums)
-            y^=x;
+            y=y^x;
         return y;
         
         
