@@ -22,7 +22,7 @@ class Solution {
 public:
     vector<int> preorder(Node* root) {
         vector<int> a;
-        if(root==NULL) 
+        if(!root) 
             return a;
         fnc(root,a);
         return a;
