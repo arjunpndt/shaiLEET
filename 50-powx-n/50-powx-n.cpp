@@ -6,7 +6,7 @@ public:
         if(nn<0)nn*=-1;
         while(nn)
         {
-            if(nn%2)
+            if(nn%2!=0)
             {
                 ans=ans*x;
                 nn=nn-1;
