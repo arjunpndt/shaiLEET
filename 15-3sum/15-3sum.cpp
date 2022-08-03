@@ -6,7 +6,7 @@ vector<vector<int> > threeSum(vector<int> &num) {
 
     std::sort(num.begin(), num.end());
 
-    for (int i = 0; i < num.size(); i++) {
+    for (int i = 0; i < num.size()-2; i++) {
         
         int target = -num[i];
         int front = i + 1;
