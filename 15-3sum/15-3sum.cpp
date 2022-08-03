@@ -31,6 +31,7 @@ vector<vector<int> > threeSum(vector<int> &num) {
                 while (front < back && num[front] == triplet[1]) front++;
 
                 while (front < back && num[back] == triplet[2]) back--;
+                
             }
             
         }
